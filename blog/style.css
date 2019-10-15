@@ -1,0 +1,142 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(80, 80, 80);
+}
+
+.logo{
+    height: 9em;
+    width: 10em;
+}
+
+
+
+.barra{
+    background-image: url(./images/fondo2.jpg);
+overflow: hidden;
+display: flex;
+height: 9em;
+}
+
+.menu{
+    display: flex;
+    font-size: 3.5em;
+    list-style: none;
+}
+
+.menu li{
+margin-left: 2.5em;
+margin-right: 0.3em;
+margin-top: 0.5em;
+
+}
+
+.menu li a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+.barra a:hover{
+color: rgb(119, 233, 162);
+
+}
+
+
+.Im_container{
+    background-color: black;
+    color: antiquewhite;
+    display :flex;
+    font-size: 1.5sem;
+    padding: 5em;
+    padding-left: 25em;
+    
+    
+   
+}
+
+
+
+
+.Jarvis{
+    padding-left: 4em;
+}
+
+h1{
+    font-size: 5em;
+    color: aquamarine;
+}
+
+.principal{
+    background-image: url("./images/fondo3.jpg");
+    height: 5em;
+    color: rgb(130, 221, 221);
+    padding-top: 1.2em;
+    padding-left: 2em;
+    font-size: 2.5em;
+}
+
+.entrada{
+    margin: 2em;
+    padding: 2em;
+    background-color:rgb(37, 37, 37);
+    color: white;
+    
+}
+
+/* caja */
+.d{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+}
+
+/* titulo */
+
+.d h2{
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-left: 35em;
+    margin-bottom: 1em;
+}
+
+/* Texto */
+.d .p{
+    grid-row-start: 2;
+    grid-column-start: 2;
+    padding: 2em;
+    text-align: justify;
+    
+    
+}
+
+/* Imagen */
+.d img{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    height: 15em;
+    width: 15em;
+}
+
+h2{
+    color: greenyellow;
+}
+
+
+
+.end{
+    background-image: url("./images/fondo3.jpg");
+    color: whitesmoke;
+    padding: 2em;
+    height: 5em;
+    width: 100%;
+    font-size: 2em;
+    padding-left: 11em;
+
+}
+
